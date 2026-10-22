@@ -4,6 +4,7 @@ Variables
 A variable is a named memory location that stores a value.
 
 java
+
 int age = 21;
 String name = "Karthik";
 Primitive Data Types
