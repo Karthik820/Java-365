@@ -1,0 +1,30 @@
+Day 009 - Methods and Method Overloading
+
+Method = A block of code that performs a task and can be reused.
+
+java
+static int add(int a, int b) {
+    return a + b;
+}
+
+Parts: access modifier, return type, name, parameters, body.
+
+Pass by Value = Java always passes a copy of the value. For objects, the copy of the reference is passed.
+
+Method Overloading = Same method name, different parameters (compile-time polymorphism).
+
+java
+static int add(int a, int b) { return a + b; }
+static int add(int a, int b, int c) { return a + b + c; }
+static double add(double a, double b) { return a + b; }
+
+Rules: change the number, type or order of parameters. Changing only the return type is not allowed.
+
+Interview Questions
+1). Can we overload by return type?
+2). Can main be overloaded?
+3). Is Java pass by value or reference?
+
+
+Practice
+MathUtils with overloaded add, plus isPrime() and factorial() as methods.
