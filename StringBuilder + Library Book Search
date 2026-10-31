@@ -1,0 +1,29 @@
+Day 011 - StringBuilder + Library Book Search
+
+StringBuilder vs StringBuffer
+
+Feature	      String	            StringBuilder	    StringBuffer
+Mutable	      No	                     Yes	            Yes
+Thread-safe	  Yes (immutable)	         No	              Yes
+Speed	        Slow for changes	      Fastest	         Slower
+
+StringBuilder sb = new StringBuilder("Java");
+sb.append(" Developer");
+sb.insert(0, "Hello ");
+sb.reverse();
+
+Useful String Methods = equalsIgnoreCase(), contains(), replace(), trim(), startsWith(), endsWith().
+
+Project: Library Book Search
+* Store titles and authors in arrays.
+* Search by title or author (case-insensitive, partial match using contains).
+* Show "Book not found" if no match.
+
+if (titles[i].toLowerCase().contains(key.toLowerCase())) { ... }
+
+Interview Questions
+1). Why use StringBuilder in loops?
+2). String vs StringBuilder vs StringBuffer?
+
+Practice
+Reverse a string using StringBuilder, count words in a sentence.
