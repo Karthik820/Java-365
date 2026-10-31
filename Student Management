@@ -1,0 +1,39 @@
+Day 012 - Student Management
+
+Concepts Used
+* Class and objects
+* Array of objects
+* Methods
+
+Requirements
+1. Add student (id, name, marks)
+2. View all students
+3. Search by id
+4. Delete by id
+
+
+Class Design
+
+class Student {
+    int id;
+    String name;
+    double marks;
+}
+
+Starter Code
+
+Student[] students = new Student[50];
+int count = 0;
+void add(Student s) { students[count++] = s; }
+Student find(int id) {
+    for (int i = 0; i < count; i++)
+        if (students[i].id == id) return students[i];
+    return null;
+}
+
+Interview Questions
+1). Why use objects instead of separate arrays for each field?
+2). What happens when the array is full?
+
+Practice
+Add update-marks and topper features.
