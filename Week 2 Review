@@ -1,0 +1,21 @@
+Day 014 - Week 2 Review
+
+Checklist
+* Class and object, stack vs heap
+* Methods and overloading
+* Arrays (1D and 2D)
+* StringBuilder
+* 4 projects pushed
+
+Revision Task
+Solve without help:
+1). Find second largest in an array
+2). Check if a string is a palindrome
+3). Count character frequency
+4). Merge two arrays
+5). Remove duplicates from an array
+
+Self Quiz
+1). What is the difference between a class and an object?
+2). What does pass by value mean?
+3). Why is String immutable?
