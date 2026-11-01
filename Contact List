@@ -1,0 +1,29 @@
+Day 013 - Contact List
+
+Requirements
+1. Add contact (name, phone)
+2. Search by name
+3. Update phone
+4. Delete contact
+5. List contacts sorted by name
+
+Class Design
+
+class Contact {
+    String name;
+    String phone;
+}
+
+Sorting Hint
+
+for (int i = 0; i < count - 1; i++)
+    for (int j = 0; j < count - i - 1; j++)
+        if (c[j].name.compareTo(c[j + 1].name) > 0) { /* swap */ }
+
+Validation Rules
+* Phone must be 10 digits.
+* No duplicate phone numbers.
+
+Interview Questions
+1). How does compareTo work for Strings?
+2) .How do you avoid duplicates in an array?
